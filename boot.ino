@@ -22,10 +22,11 @@ int luminosity;
 String apiKeyValue = "tPmAT5Ab3j7F9";
 String sensorName = "ESP32";
 String zone = "Batiment";
+// ssi and password wifi
 const char* ssid = "*****";
 const char* password = "******";
 //WiFiClient client;
-const char* server = "http://senpoulailler.tech/post-esp-data.php";
+const char* server = "http://*******";
 
 WiFiClient client; 
 HTTPClient http;   
