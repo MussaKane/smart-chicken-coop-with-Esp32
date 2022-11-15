@@ -64,7 +64,7 @@ void setup()
  }
 void loop()
 { 
-  air_quality = random(500,700);
+  air_quality = analogRead(27);
   humidityData = dht_sensor.readHumidity();
   temperatureData = dht_sensor.readTemperature(); 
   luminosity = analogRead(35);
